@@ -9,22 +9,22 @@ class Milo < Formula
   on_macos do
     on_arm do
       url "https://github.com/milo-language/milo/releases/download/v0.2.0/milo-darwin-arm64.tar.gz"
-      sha256 "e9570273ba6baa898717888b5e8ae90f480ae4d0acbfe240ee4c55793cab6979"
+      sha256 "3f1db7fcf7964285bd922275622ec49dc3edbaba7ba0d99ee595052a511a75ee"
     end
     on_intel do
       url "https://github.com/milo-language/milo/releases/download/v0.2.0/milo-darwin-x64.tar.gz"
-      sha256 "a2faccaec320fe3f3db983954b13aa21b04700ddd643382fad477e9ac75ad863"
+      sha256 "1cfd86eec9c803cb77bbf6e6566df6be798ecf4f3719b5578f5664c64236dda8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/milo-language/milo/releases/download/v0.2.0/milo-linux-arm64.tar.gz"
-      sha256 "59aff5f3be6e81659fba46c6fba773116b500c5ca3bd8db311d372bb40ef286f"
+      sha256 "70d733c63cd1443157c3af71943b4fcedd5a979d2ff71f4c8fa48ad7023bacda"
     end
     on_intel do
       url "https://github.com/milo-language/milo/releases/download/v0.2.0/milo-linux-x64.tar.gz"
-      sha256 "e68a1dbe5073985c5edad3d895391e0096449a4813790a9a7f6000979018edef"
+      sha256 "13cbc4b819edcb78eba79d42751def6869ed924f02b3b375ba68acdec00f9d37"
     end
   end
 
